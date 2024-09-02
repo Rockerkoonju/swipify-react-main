@@ -9,7 +9,8 @@ import './Card.css';
 
 function Card({ tracks }) {
 	return (
-		<>
+		<>  
+            <h1>Card</h1>
 			{tracks.map((track) => (
 				<div key={track.trackId}>
 					<h2>{track.name}</h2>
